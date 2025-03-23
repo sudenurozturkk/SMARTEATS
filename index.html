@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmartEats - Test Sayfası</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        main {
+            padding: 2rem;
+        }
+        .card {
+            background-color: white;
+            border-radius: 8px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 2rem;
+        }
+        .feature {
+            background-color: white;
+            border-radius: 8px;
+            padding: 2rem;
+            text-align: center;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+        .feature-icon {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+        footer {
+            text-align: center;
+            padding: 2rem 0;
+            background-color: #333;
+            color: white;
+            margin-top: 3rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>SmartEats</h1>
+            <p>Akıllı Yemek Önerileri ve Sipariş Sistemi</p>
+        </div>
+    </header>
+
+    <div class="container">
+        <main>
+            <div class="card">
+                <h2>SmartEats - Statik Test Sayfası</h2>
+                <p>Bu sayfa, Next.js uygulamasının yerine basit bir statik HTML sayfası göstermeye çalışıyor. Eğer bu sayfayı görüyorsanız, HTTP sunucunuz çalışıyor ancak Next.js uygulaması düzgün çalışmıyor demektir.</p>
+                <p>Next.js uygulamanızı <a href="http://localhost:3000">http://localhost:3000</a> adresinden kontrol edebilirsiniz.</p>
+            </div>
+
+            <h2>Özellikler</h2>
+            <div class="grid">
+                <div class="feature">
+                    <div class="feature-icon">📊</div>
+                    <h3>Akıllı Besin Takibi</h3>
+                    <p>Her siparişinizin besin değerlerini takip edin, beslenme hedeflerinize uygun seçimler yapın.</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">🎯</div>
+                    <h3>Kişiselleştirilmiş Öneriler</h3>
+                    <p>Beslenme alışkanlıklarınıza ve tercihlerinize göre özel yemek önerileri alın.</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">🚚</div>
+                    <h3>Hızlı Teslimat</h3>
+                    <p>Şehrin en iyi restoranlarından hızlı ve güvenli teslimat hizmeti.</p>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 SmartEats. Tüm hakları saklıdır.</p>
+        </div>
+    </footer>
+</body>
+</html> 
